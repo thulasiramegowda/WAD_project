@@ -1,7 +1,5 @@
 # 🕉️ VedicMaths Academy - Premium EdTech Platform
 
-![VedicMaths Academy Preview](./frontend/public/vedic-maths-preview.png)
-
 ### Ancient Mathematical Wisdom. Modern Learning.
 
 A premium Vedic Mathematics learning platform that brings traditional Indian mathematical techniques into modern digital education. Designed to help students improve calculation speed, accuracy, and confidence through interactive learning.
