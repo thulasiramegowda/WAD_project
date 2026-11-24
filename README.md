@@ -1,32 +1,53 @@
 # 🕉️ VedicMaths Academy - Premium EdTech Platform
 
-![VedicMaths Preview](./frontend/public/vedic-maths-preview.png)
+![VedicMaths Academy Preview](./frontend/public/vedic-maths-preview.png)
 
-A premium, full-stack Vedic Mathematics learning platform built with React, Tailwind CSS, and Supabase. It features a unique "Ancient Manuscript" UI design, secure authentication, course enrollment, interactive quizzes, and a personalized student dashboard.
+### Ancient Mathematical Wisdom. Modern Learning.
 
-## 🚀 Features
+A premium Vedic Mathematics learning platform that brings traditional Indian mathematical techniques into modern digital education. Designed to help students improve calculation speed, accuracy, and confidence through interactive learning.
 
-- **Premium UI/UX:** Ancient Indian manuscript aesthetic with custom typography, parchment textures, and smooth animations.
-- **Authentication:** Secure login and signup using Supabase Auth (JWT).
-- **Course & Batch Management:** Browse courses, view syllabus, and enroll in online/offline batches with real-time seat tracking.
-- **Personalized Dashboard:** Students can track their enrolled courses, view stats, and access learning materials.
-- **Interactive Practice Arena:** Filterable quizzes by topic and difficulty level, with instant feedback.
-- **Notes Sharing:** Upload and download study materials (PDF/Images) securely via Supabase Storage.
-- **Video Library:** Curated YouTube playlists integrated into the platform.
-- **Profile & Recommendations:** Users can set their bio and select topics to get personalized learning recommendations.
+![VedicMaths Academy Preview](./frontend/public/vedic-maths-preview.png)
+
+## ✨ Key Features
+
+- **Premium UI/UX:** Elegant ancient manuscript-inspired design with parchment textures and antique gold aesthetics.
+- **Secure Authentication:** Student signup, login, and protected access.
+- **Courses & Batches:** Beginner, Intermediate, and Advanced levels with online and offline enrollment.
+- **Student Dashboard:** Personalized learning space with enrolled courses and progress tracking.
+- **Interactive Practice:** Topic-based quizzes, difficulty levels, and instant feedback.
+- **Notes Sharing:** Upload, browse, and download learning materials.
+- **Video Library:** Integrated educational video resources.
+- **Personalized Profiles:** Student profiles and learning recommendations.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Vite, Tailwind CSS, React Router, Lucide React (Icons)
-- **Backend & Database:** Supabase (PostgreSQL, Row Level Security, Auth, Storage)
-- **Deployment:** Ready for Vercel/Netlify
+React.js • Vite • Tailwind CSS • Supabase • PostgreSQL • React Router • Lucide React
 
-## ⚙️ Environment Variables
+## 🚀 Run Locally
 
-To run this project, you will need to add the following environment variables to your `frontend/.env` file.
+```bash
+cd frontend
+npm install
+```
 
-Create a `.env` file in the `frontend` directory:
+Create a `.env` file inside `frontend`:
 
 ```env
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+Start the application:
+
+```bash
+npm run dev
+```
+
+## 🎯 Our Vision
+
+Making the timeless mathematical wisdom of India accessible through engaging, interactive, and personalized digital learning.
+
+---
+
+**Developed by Thulasi Rame Gowda**
+
