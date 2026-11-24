@@ -4,25 +4,36 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-    theme: {
+  theme: {
     extend: {
       colors: {
         brand: {
-          ink: '#151411',       // Deep ink black
-          parchment: '#E8DDC8', // Antique parchment
-          ivory: '#F7F3EB',     // Warm ivory
-          bronze: '#9A7950',    // Aged bronze
-          gold: '#B89A68',      // Muted antique gold
-          walnut: '#33271D',    // Dark walnut
+          ink: '#151411',
+          parchment: '#E8DDC8',
+          ivory: '#F7F0E3',
+          gold: '#B8955E',
+          walnut: '#33271D',
+          bronze: '#8E6B42',
         }
       },
       fontFamily: {
-        serif: ['"Cormorant Garamond"', 'serif'], // Elegant headings
-        sans: ['"Inter"', 'sans-serif'],         // Clean body text
-        mono: ['"Courier Prime"', 'monospace'],  // Math annotations
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['"Inter"', 'sans-serif'],
+        mono: ['"Courier Prime"', 'monospace'],
       },
-      boxShadow: {
-        '3d-glow': '0 20px 50px -10px rgba(184, 154, 104, 0.3)', // Glow for the Pi image
+      animation: {
+        'marquee': 'marquee 40s linear infinite',
+        'float': 'float 6s ease-in-out infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        }
       }
     },
   },
