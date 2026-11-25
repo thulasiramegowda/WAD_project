@@ -1,0 +1,6 @@
+React.js
+Vite
+TailwindCSS
+Supabase (PostgreSQL, Auth, Storage)
+Lucide React (Icons)
+React Router DOM
